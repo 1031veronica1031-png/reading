@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>What Do Whales Feel? - 文本精读与词义匹配测试</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 900px; margin: 30px auto; padding: 20px; background: #f8f9fa; line-height: 1.6; color: #333; }
+        .container { background: white; padding: 40px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+        h1 { text-align: center; color: #2c3e50; margin-bottom: 30px; }
+        .paragraph-box { margin-bottom: 30px; padding: 20px; background: #fff; border: 1px solid #e1e4e8; border-radius: 8px; }
+        .english-text { font-size: 16px; margin-bottom: 12px; color: #1a1a1a; }
+        .chinese-text { font-size: 15px; color: #586069; background: #f6f8fa; padding: 12px; border-radius: 6px; border-left: 4px solid #0366d6; }
+        select.word-select { padding: 4px 8px; border-radius: 4px; border: 1px solid #ced4da; font-size: 14px; background: #fff; margin: 0 2px; }
+        .submit-section { text-align: center; margin-top: 40px; }
+        button { background: #2ea44f; color: white; border: none; padding: 12px 30px; border-radius: 6px; cursor: pointer; font-size: 16px; font-weight: bold; transition: background 0.2s; }
+        button:hover { background: #2c974b; }
+        #result { margin-top: 20px; font-weight: bold; font-size: 18px; text-align: center; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>What Do Whales Feel? - 词义精读匹配测试</h1>
+    <p style="text-align: center; color: #666; margin-bottom: 30px;">请结合中英文对照阅读文章，并在英文句子的高亮位置为关键短语选择正确的中文释义，完成后点击底部按钮检查。</p>
+
+    <!-- Paragraph 1 -->
+    <div class="paragraph-box">
+        <div class="english-text">
+            1. Some of the 
+            <select class="word-select" data-answer="感官">
+                <option value="">--请选择--</option>
+                <option value="感官">感官</option>
+                <option value="认为理所当然">认为理所当然</option>
+                <option value="削弱或不存在">削弱或不存在</option>
+            </select> 
+            that we and other terrestrial mammals 
+            <select class="word-select" data-answer="认为理所当然">
+                <option value="">--请选择--</option>
+                <option value="感官">感官</option>
+                <option value="认为理所当然">认为理所当然</option>
+                <option value="削弱或不存在">削弱或不存在</option>
+            </select> 
+            are either 
+            <select class="word-select" data-answer="削弱或不存在">
+                <option value="">--请选择--</option>
+                <option value="感官">感官</option>
+                <option value="认为理所当然">认为理所当然</option>
+                <option value="削弱或不存在">削弱或不存在</option>
+            </select> 
+            in cetaceans...
+        </div>
+        <div class="chinese-text">
+            1. 我们和其他陆生哺乳动物<b>认为理所当然</b>的一些<b>感官</b>，在鲸类动物身上要<b>么被削弱或不存在</b>……
+        </div>
+    </div>
+
+    <!-- Paragraph 2 -->
+    <div class="paragraph-box">
+        <div class="english-text">
+            2. The sense of touch has sometimes been described as weak too, but this view is probably 
+            <select class="word-select" data-answer="错误的">
+                <option value="">--请选择--</option>
+                <option value="错误的">错误的</option>
+                <option value="驯养员">驯养员</option>
+                <option value="维持秩序">维持秩序</option>
+            </select>
+            . Trainers of captive dolphins...
+        </div>
+        <div class="chinese-text">
+            2. 触觉有时也被描述为微弱，但这种观点可能是<b>错误的</b>。圈养海豚和小型鲸鱼的<b>驯养员</b>……
+        </div>
+    </div>
+
+    <!-- Paragraph 3 -->
+    <div class="paragraph-box">
+        <div class="english-text">
+            3. The sense of vision is developed 
+            <select class="word-select" data-answer="不同程度">
+                <option value="">--请选择--</option>
+                <option value="不同程度">不同程度</option>
+                <option value="物种">物种</option>
+                <option value="限制">限制</option>
+            </select>
+            in different 
+            <select class="word-select" data-answer="物种">
+                <option value="">--请选择--</option>
+                <option value="不同程度">不同程度</option>
+                <option value="物种">物种</option>
+                <option value="限制">限制</option>
+            </select>
+            ...
+        </div>
+        <div class="chinese-text">
+            3. 不同<b>物种</b>的视觉<b>发育程度不同</b>。在水下近距离研究的须鲸物种……
+        </div>
+    </div>
+
+    <!-- Paragraph 4 -->
+    <div class="paragraph-box">
+        <div class="english-text">
+            4. On the other hand, the position of the eyes in most dolphins and porpoises 
+            <select class="word-select" data-answer="表明">
+                <option value="">--请选择--</option>
+                <option value="表明">表明</option>
+                <option value="侧泳">侧泳</option>
+                <option value="敏锐">敏锐</option>
+            </select>
+            that they have stereoscopic vision...
+        </div>
+        <div class="chinese-text">
+            4. 另一方面，大多数海豚和鼠海豚的眼睛<b>位置表明</b>，它们具有向前和向下的立体视觉……
+        </div>
+    </div>
+
+    <!-- Paragraph 5 -->
+    <div class="paragraph-box">
+        <div class="english-text">
+            5. Such 
+            <select class="word-select" data-answer="差异">
+                <option value="">--请选择--</option>
+                <option value="差异">差异</option>
+                <option value="栖息地">栖息地</option>
+                <option value="有限的视觉">有限的视觉</option>
+            </select>
+            can no doubt be explained with reference to the 
+            <select class="word-select" data-answer="栖息地">
+                <option value="">--请选择--</option>
+                <option value="差异">差异</option>
+                <option value="栖息地">栖息地</option>
+                <option value="有限的视觉">有限的视觉</option>
+            </select>
+            ...
+        </div>
+        <div class="chinese-text">
+            5. 毫无疑问，这种<b>差异</b>可以用各个物种的<b>栖息地</b>来解释……
+        </div>
+    </div>
+
+    <!-- Paragraph 6 -->
+    <div class="paragraph-box">
+        <div class="english-text">
+            6. Although the senses of 
+            <select class="word-select" data-answer="味觉和嗅觉">
+                <option value="">--请选择--</option>
+                <option value="味觉和嗅觉">味觉和嗅觉</option>
+                <option value="弥补">弥补</option>
+                <option value="异常情况">异常情况</option>
+            </select>
+            appear to have deteriorated...
+        </div>
+        <div class="chinese-text">
+            6. 虽然<b>味觉和嗅觉</b>似乎退化了……
+        </div>
+    </div>
+
+    <div class="submit-section">
+        <button onclick="checkAnswers()">提交答案并检查</button>
+        <div id="result"></div>
+    </div>
+</div>
+
+<script>
+function checkAnswers() {
+    let selects = document.querySelectorAll('.word-select');
+    let correctCount = 0;
+    selects.forEach(sel => {
+        if(sel.value === sel.dataset.answer) {
+            correctCount++;
+            sel.style.borderColor = '#2ea44f';
+            sel.style.backgroundColor = '#f0fff4';
+        } else {
+            sel.style.borderColor = '#cb2431';
+            sel.style.backgroundColor = '#ffeef0';
+        }
+    });
+    let resultDiv = document.getElementById('result');
+    if (correctCount === selects.length) {
+        resultDiv.innerHTML = `🎉 太棒了！全部回答正确（${correctCount} / ${selects.length}）。`;
+        resultDiv.style.color = '#2ea44f';
+    } else {
+        resultDiv.innerHTML = `💡 检查完成：答对 ${correctCount} / ${selects.length} 题。请根据红框提示修改标红的选项。`;
+        resultDiv.style.color = '#d73a49';
+    }
+}
+</script>
+</body>
+</html>
